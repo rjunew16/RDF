@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+.top-bar{
+	width: 100%;height: 50px;line-height: 50px
+}
+.top-bar a{
+	color: white
+}
+.top-bar a:hover{
+	color: #FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 8px 20px;border-radius: 5px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	background-color: #056CB6;color: #FFC113
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056CB6;padding-bottom: 0;padding-top: 0px
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color:#FFC113 
+}
+main{
+	width: 100%;min-height: 600px
+}
+footer{
+	width: 100%;min-height: 300px
+}
+.gach-chan{
+	border-bottom: 2px solid #FFC113 
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color:#FFC113  
+}
+.bottom-bar{
+	width: 100%;height: 50px;line-height: 50px
+}
+#dat-lich{
+	width: 100%; min-height: 300px; background: url("../images/pageheader.png"); background-repeat: no-repeat;background-size:cover; background-position: center top
+}

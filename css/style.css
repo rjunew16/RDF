@@ -1,0 +1,87 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* CSS Document */
+body{
+	font-family: 'Roboto', sans-serif; font-size: 16px; color: #666666; margin: 0; background-color: #E5E5E5	
+}
+.top-bar{
+	width: 100%;height: 50px;line-height: 50px
+}
+.top-bar a{
+	color: white
+}
+.top-bar a:hover{
+	color: #FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 8px 20px;border-radius: 5px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	background-color: #056CB6;color: #FFC113
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056CB6;padding-bottom: 0;padding-top: 0px
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color:#FFC113 
+}
+main{
+	width: 100%;min-height: 600px
+}
+footer{
+	width: 100%;min-height: 300px
+}
+.gach-chan{
+	border-bottom: 2px solid #FFC113 
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color:#F7F506  
+}
+.bottom-bar{
+	width: 100%;height: 50px;line-height: 50px
+}
+#service a{
+	text-decoration: none;color: #464646
+}
+#service a:hover{
+	text-decoration: none;color: #FFFD36
+}
+#why{
+	width: 100%; min-height: 400px; background: url("../images/why.jpg"); background-repeat: no-repeat;background-size:cover; background-position: center top
+}
+#client a{
+	text-decoration: none; color: #464646
+}
+#client a:hover{
+	text-decoration: none; color: #464646
+}
+#client .hinh{
+	width: 100%;min-height: 300px; position: relative
+	
+}
+#client .truoc{
+	 position: absolute; left: 0; top: 0; padding: 6px; background-color: rgba(255,255,255,0.80); color:rgba(96,96,96,1.00)
+	
+}
+#client .sau{
+	 position: absolute; left: 50%; top: 0; padding: 6px; background-color: rgba(255,255,255,0.80); color:rgba(96,96,96,1.00)
+	
+}
+#cam-nhan .noidung img{
+	width: 80px; height: 80px
+}
+#cam-nhan .noidung {
+	padding: 30px;display: flex; flex-direction: column;justify-content: center;align-items: center
+}
+#news a{
+	text-decoration: none;color: #464646
+}
+#news a:hover{
+	text-decoration: none;color:#FFFD36
+}
